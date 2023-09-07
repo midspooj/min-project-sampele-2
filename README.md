@@ -1,1 +1,0 @@
-# min-project-sampele-2
