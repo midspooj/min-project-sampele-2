@@ -21,6 +21,8 @@ def analyze_world_indicators(csv_url):
         .label(title="Log GDP and Under-5 Mortality")
         .theme({**style.library["seaborn-whitegrid"]})
     )
+    
+    my_chart.show()
 
     return wdi, my_chart
 
