@@ -33,7 +33,7 @@ def test_analyze_world_indicators():
     # Check if the data DataFrame has been modified correctly
     assert "Log GDP Per Capita" in data.columns, "Log GDP Per Capita column missing"
 
-    # Add more assertions if needed based on your specific requirements
+    
 
 # Run the testing function
 test_analyze_world_indicators()
