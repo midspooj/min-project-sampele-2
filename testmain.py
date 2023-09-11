@@ -6,16 +6,19 @@ TESTS goes here
 
 
 from main import analyze_world_indicators
+import seaborn.objects as so
+import pandas as pd
+# import numpy as np
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+
 
 
 def test_analyze_world_indicators():
     # Define the CSV URL for testing
     test_csv_url = "https://media.githubusercontent.com/media/nickeubank/MIDS_Data/master/World_Development_Indicators/wdi_small_tidy_2015.csv"
 
-    import pandas as pd
-    import numpy as np
-    import seaborn as sns
-    import matplotlib.pyplot as plt
+
 
     # Call the function and capture the returned values
     data, chart = analyze_world_indicators(test_csv_url)
