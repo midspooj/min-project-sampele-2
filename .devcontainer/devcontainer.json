@@ -1,7 +1,7 @@
 {
   "name": "Python Development Container",
   "build": {
-		"dockerfile": "dockerfile",
+		"dockerfile": "DockerFile",
 		"context": ".."
 	},
 
@@ -68,5 +68,4 @@
 	 "postCreateCommand": "pip install -r requirements.txt"
   }
   }
-}
 }
