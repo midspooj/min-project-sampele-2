@@ -20,7 +20,7 @@ def analyze_world_indicators(csv_url):
         .add(so.Line(), so.PolyFit(order=2))
         .add(so.Dot())
         .label(title="Log GDP and Under-5 Mortality")
-        .theme({**style.library["seaborn-whitegrid"]})
+        # .theme({**style.library["seaborn-whitegrid"]})
     )
     
     my_chart.show()
