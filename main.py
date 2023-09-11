@@ -28,8 +28,8 @@ def analyze_world_indicators(csv_url):
     return wdi, my_chart
 
 # Example usage
-csv_url = "https://media.githubusercontent.com/media/nickeubank/MIDS_Data/master/World_Development_Indicators/wdi_small_tidy_2015.csv"
-data, chart = analyze_world_indicators(csv_url)
+csvurl = "https://media.githubusercontent.com/media/nickeubank/MIDS_Data/master/World_Development_Indicators/wdi_small_tidy_2015.csv"
+data, chart = analyze_world_indicators(csvurl)
 
 # Print some statistical data
 print(data.describe())
