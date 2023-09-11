@@ -10,6 +10,9 @@ format:
 
 lint:
 	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
+
+deploy:
+	# Deploy code goes here
 		
 all: install lint format test 
 
