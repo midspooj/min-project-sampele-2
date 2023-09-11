@@ -4,7 +4,7 @@ import seaborn.objects as so
 import seaborn as sns
 from matplotlib import style
 
-def analyze_world_indicators(csv_url):
+def analyze_world_indicators(input_csv_url):
     # Download World Development Indicators
     wdi = pd.read_csv(csv_url)
 
