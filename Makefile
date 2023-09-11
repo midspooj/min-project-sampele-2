@@ -10,5 +10,5 @@ format:
 
 
 		
-all: install lint format test 
+all: install format test 
 
