@@ -3,7 +3,7 @@ import numpy as np
 import seaborn.objects as so
 
 
-from matplotlib import style
+# from matplotlib import style
 
 def analyze_world_indicators(csv_url):
     # Download World Development Indicators
