@@ -14,11 +14,11 @@ The purpose of this code is to analyze World Development Indicators data, specif
 
 ### 1. Import Libraries:
 
-1.1 pandas is imported as pd for data manipulation and analysis.  
+pandas (abbreviated as pd) for data manipulation.  
 
-1.2 numpy is imported as np for numerical computations.  
+numpy (abbreviated as np) for numerical operations.  
 
-1.3 stats_o_plots (abbreviated as so) for creating statistical visualizations.
+seaborn.objects (abbreviated as so) for creating statistical visualizations.
  
 ### 2. Function: analyze_world_indicators(csv_url):
 
@@ -28,14 +28,17 @@ csv_url (str): The URL of the CSV file containing World Development Indicators d
 
 #### Functionality:
 
-Downloads the World Development Indicators data from the provided CSV URL.
-Applies a logarithmic transformation to the "GDP per capita" column for improved readability.
+Downloads the World Development Indicators data from the provided CSV URL.  
+
+Applies a logarithmic transformation to the "GDP per capita" column for improved readability.   
+
 Generates a scatter plot visualizing the relationship between log GDP per capita and under-5 mortality rate.
 
 #### Returns:
 
-wdi (pd.DataFrame): The DataFrame containing the analyzed data.
-my_chart (so.Plot()): The chart created using stats_o_plots
+wdi (pd.DataFrame): The DataFrame containing the analyzed data.  
+
+my_chart (so.Plot()): The chart created using seaborn.objects
 
 ### 3. Example Usage:
 
