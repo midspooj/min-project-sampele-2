@@ -80,7 +80,8 @@ In outlier detection, for instance, countries with exceptionally high or low val
 
 The visualization below illustrates the relationship between the predictor variable (Log GDP Per Capita) and Infant Mortality Rate.
 
-![image](https://github.com/midspooj/min-project-sampele-2/assets/142264378/6465af3d-6eff-4f03-81c3-992d91bbb0ad)
+![image](https://github.com/midspooj/pb226-de-miniproject-2/assets/142264378/f007767e-5b32-48a6-a00e-80b2fca73acd)
+
 
 ## Conclusion
 
